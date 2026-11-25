@@ -1,11 +1,11 @@
 import React from 'react'
-import TodoList from "./components/TodoList"
+import Fetch from './components/fetch'
 
 const App = () => {
   return (
-    <div>
-      <TodoList/>
-    </div>
+    <>
+    <Fetch />
+    </>
   )
 }
 
